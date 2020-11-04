@@ -1,22 +1,26 @@
- body{
-  width:60%;
-  margin:auto;
- }
-
-#h1,#h2{
- height:10px;
+body{
+    width:75%;
+    margin:auto;
 }
 
- #mainmenu{
-  text-align:right;
- background-color: black;
- margin-top:20px;
- padding:10px;
- color:white;
- font-weight:bold;
+h1{
+    height:30px;
+    text-align:center;
+}
+
+h2{
+    text-align:center;
 }
 
 #mainimage{
- width:50%;
- height:50%;
+    width:50%;
+    border:3px solid black ;
+    padding:0px;
+    float:center;
+}
+
+#aboutus{
+    background-color: black;
+    color:white;
+    font-size: 14pt;
 }
