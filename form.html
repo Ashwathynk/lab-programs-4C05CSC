@@ -17,12 +17,15 @@
                 <b>Last Name:</b> 
 			<input type="text" placeholder="Last Name" /> <br /><br />
 		    <b>Programme</b><br />
-		    Computer Science<input type="radio" value="Computer Science" name="Programme"/><br />
-		     Physics<input type="radio" value="Physics" name="Programme"/><br />
-		     Chemitry<input type="radio" value="Chemistry" name="Programme"/><br />
-		  Mathematics<input type="radio" value="Mathematics" name="Programme"/><br />
-		     Statistics<input type="radio" value="Statistics" name="Programme"/><br />
-			<br />
+		    <input type="text" list="Programmes">
+		    <datalist id="Programmes">
+		   <option value="Computer Science"/>
+		    <option value="Physics"/>
+		     <option value="Chemistry"/>
+		     <option value="Mathematics"/>
+		    <option value="Statistics"/>
+		    </datalist>
+		    <br /><br />
 	  	<b>University:</b>
 
 	  	<select>  
